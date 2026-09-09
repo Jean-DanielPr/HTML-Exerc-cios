@@ -14,14 +14,28 @@
                 <label for="">Nome Completo:</label><br>
                 <input type="text" name="txtNome" id="txtNome" placeholder="Digite seu nome completo">
             </div>
+            <br>
             <div>
                 <label for="">E-mail:</label><br>
                 <input type="email" name="txtEmail" id="txtEmail" placeholder="exemplo@gmail.com">
             </div>
+            <br>
             <div>
                 <label for="">Ano de nascimento:</label><br> 
-                <input type="date" name="txtDataNascimento" id="txtDataNascimento">
+                <input type="number" name="numAnoNascimento" id="numAnoNascimento" min="1950" max="2026">
             </div>
+            <br>
+            <div>
+                <label for="">Data de nascimento:</label><br> 
+                <input type="date" name="txtDataNascimento" id="txtDataNascimento" min="1950" max="2026">
+            </div>
+            <br>
+            <div>
+                <label for="">Horário preferido de estudo:</label><br>
+                <input type="time" name="horaPreferencia" id="horaPreferencia">
+            </div>
+            <br>
+            <button type="submit">Salvar</button>
         </fieldset>
     </form>
 </body>
